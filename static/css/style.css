@@ -1,0 +1,108 @@
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  height: 3000px;
+}
+
+/* Styling Navbar */
+.navbar-nav {
+  transition: all ease-in-out 0.3s !important;
+}
+#Home {
+  margin-top: 300px;
+}
+
+.titleAboutMe {
+  color: #8eaccd;
+}
+.titleSection {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #8eaccd;
+}
+.myName {
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
+
+/* About Style */
+section {
+  padding-top: 120px;
+}
+
+#About img {
+  margin-right: 40px;
+}
+
+.textAbout {
+  margin-top: 10px;
+}
+.textAbout p {
+  opacity: 60%;
+}
+.textAbout h4 {
+  font-size: 50px;
+}
+
+/* Service Style */
+
+.card {
+  margin-bottom: 10px;
+  border: 2px solid rgb(160, 126, 126);
+  margin-bottom: 20px;
+}
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-text {
+  color: white;
+}
+
+.card-text:hover {
+  display: block !important;
+  color: black;
+  transition: all ease-in-out 0.3s;
+  padding-bottom: 50px;
+}
+.bi {
+  font-size: 50px;
+}
+
+/* Portofolio */
+
+#Portofolio img:hover {
+  opacity: 80%;
+  transition: all ease-in-out 0.3s;
+}
+/* Footer */
+.sosmed .bi {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.sosmed a {
+  color: black;
+}
+
+.sosmed a:hover {
+  opacity: 40%;
+}
+
+/* Breakpoint */
+@media (max-width: 768px) {
+  .textAbout {
+    text-align: center;
+  }
+  .titleSection {
+    font-size: 40px;
+    color: #8eaccd;
+  }
+}
